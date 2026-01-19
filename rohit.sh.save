@@ -1,0 +1,39 @@
+
+echo "rohit"
+name = "rohit"
+
+echo "hello my name is $name"
+echo "What is Your Name?"
+read your_name
+echo "My name is $name"
+
+
+echo "Hello Food afternoon $your_name"
+
+echo "today is $(TZ=Asia/Kalkata date)"
+
+for i in  1 2 3 4 5 6
+do
+echo "number $i"
+done
+
+for name in rohit tohito itohi
+do 
+echo "$name"
+done
+
+count=1
+while [ $count -le 5 ]
+do
+echo "Your count is $count"
+count=$((count+1))
+done
+
+echo "Enter a number"
+read score
+if [ $score -ge 33 ]
+then
+echo "number is matched with $score"
+else
+echo "number is not matched with $score"
+fi
