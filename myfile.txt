@@ -1,0 +1,11 @@
+name="RohitSharma"
+age=49
+echo "my name is $name"
+echo "my age is $age"
+echo "what is your first_name?"
+read first_name
+echo "my name is $first_name"
+
+echo "today is $(TZ=Asia/kolkata date)"
+
+
