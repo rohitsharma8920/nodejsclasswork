@@ -1,25 +1,11 @@
 {
-  "name": "chapter-10---airbnb",
+  "name": "nodejs-fundamentals",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "tailwindcss -i ./views/input.css -o ./public/output.css --watch",
-    "start": "nodemon app.js & npm run tailwind"
+    "start": "node 08-first-node-app/index.js",
+    "dev": "nodemon 08-first-node-app/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "nodemon": "^3.1.7",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13"
-  },
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
